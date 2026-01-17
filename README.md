@@ -46,3 +46,11 @@ Result is displayed instantly
 Scores update automatically
 
 Click Reset to start fresh
+
+🔗 Project Links
+
+Replit Project:
+https://replit.com/@luckysenapatilu/snakewatergungame?v=1
+
+Live Demo:
+https://snakewatergungame--luckysenapatilu.replit.app/
