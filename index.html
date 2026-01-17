@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Water Gun Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🐍 Snake Water Gun Game 🔫</h1>
+
+  <div class="game-container">
+
+    <!-- Score Board -->
+    <div class="scoreboard">
+      <h2>Score Board</h2>
+      <p>User: <span id="userScore">0</span></p>
+      <p>CPU: <span id="cpuScore">0</span></p>
+      <p>Tie: <span id="tieScore">0</span></p>
+    </div>
+
+    <!-- Game Display -->
+    <div class="display">
+      <p id="userChoice">Your Choice: -</p>
+      <p id="cpuChoice">CPU Choice: -</p>
+      <p id="result">Result will appear here</p>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button onclick="playGame('s')">Snake</button>
+      <button onclick="playGame('w')">Water</button>
+      <button onclick="playGame('g')">Gun</button>
+    </div>
+
+    <button class="reset" onclick="resetGame()">Reset Game</button>
+
+    <!-- Rules -->
+    <div class="rules">
+      <h2>Rules & Regulations</h2>
+      <ul>
+        <li>Snake drinks Water → Snake wins</li>
+        <li>Water damages Gun → Water wins</li>
+        <li>Gun kills Snake → Gun wins</li>
+        <li>Same choice → Match Tie</li>
+        <li>Scores are saved until reset</li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Created by <strong>Dibyajyoti Senapati</strong></p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/dibyajyoti-senapat/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Luckysenapati" target="_blank">GitHub</a>
+        <a href="https://www.instagram.com/mr_lucky_3333" target="_blank">Instagram</a>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

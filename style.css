@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.game-container {
+  max-width: 400px;
+  margin: auto;
+  background: #2b2b2b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.scoreboard, .display, .rules {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.scoreboard h2,
+.rules h2 {
+  margin-bottom: 10px;
+}
+
+.display p {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+#result {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.reset {
+  background: crimson;
+  color: white;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.rules ul {
+  list-style: none;
+  font-size: 14px;
+}
+
+.rules li {
+  margin: 5px 0;
+}
+
+footer {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.social-links a {
+  color: #4da6ff;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  button {
+    margin: 5px 0;
+  }
+}
